@@ -70,11 +70,9 @@ btn.addEventListener("click", () => {
     const valor_8 = Metal.value * localStorage.getItem("Metal")
 
     
-
- 
-
     let pagar = valor_1 + valor_2 + valor_3 + valor_4 + valor_5 + valor_6 + valor_8;
     
+     console.log(valor_2)
 
     localStorage.setItem("pagar", pagar);
 

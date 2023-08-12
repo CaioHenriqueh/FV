@@ -152,3 +152,13 @@ input[type=number] {
  appearance: textfield;
 
 }
+.alignh ,span{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+.value0 {
+  color: #ff1d44;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+}
