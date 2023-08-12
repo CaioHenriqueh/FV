@@ -5,7 +5,7 @@ const Cobre = document.querySelector("#Cobre")
 const Metal = document.querySelector("#Metal")
 const Ferro_Fundido = document.querySelector("#Ferro_Fundido")
 const Ferro_Ruim = document.querySelector("#Ferro_Ruim")
-const caixas = document.querySelector("#caixa")
+
 const btn = document.querySelector("#btn")
 const resultado = document.querySelector("#resultado")
 
@@ -19,7 +19,7 @@ btn.addEventListener("click" , () => {
     localStorage.setItem("Metal", parseFloat(Metal.value));
     localStorage.setItem("Ferro_Fundido", parseFloat(Ferro_Fundido.value));
     localStorage.setItem("Ferro_Ruim", parseFloat(Ferro_Ruim.value));
-    localStorage.setItem("caixa", caixas.value);
+ 
 })
 
 sucata_pesada.value =  localStorage.getItem("sucata_pesada")
@@ -29,4 +29,3 @@ Cobre.value = localStorage.getItem("Cobre")
 Metal.value = localStorage.getItem("Metal")
 Ferro_Fundido.value = localStorage.getItem("Ferro_Fundido")
 Ferro_Ruim.value = localStorage.getItem("Ferro_Ruim")
-caixas.value = localStorage.getItem("caixa")

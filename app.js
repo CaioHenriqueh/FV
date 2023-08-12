@@ -5,7 +5,6 @@ const Cobre = document.querySelector("#Cobre")
 const Metal = document.querySelector("#Metal")
 const Ferro_Fundido = document.querySelector("#Ferro_Fundido")
 const Ferro_Ruim = document.querySelector("#Ferro_Ruim")
-const caixas = document.querySelector("#caixa")
 const btn = document.querySelector("#liveToastBtn")
 const resultado = document.querySelector("#resultado")
 const Valor = document.querySelector(".toast-body");
@@ -62,15 +61,11 @@ btn.addEventListener("click", () => {
      if(Ferro_Ruim.value === ''){
        Ferro_Ruim.value = 0 
      }
-    if(caixas.value === "" ) {
-        caixas.value = 0;
-    }
     
 
 
     const valor_6 = Ferro_Ruim.value * localStorage.getItem("Ferro_Ruim")
 
-    const valor_7 = caixas.value * localStorage.getItem("caixa")
 
     const valor_8 = Metal.value * localStorage.getItem("Metal")
 
