@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="shortcut icon" href="Design_sem_nome__17_-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Ferro Velho</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand canva" href="#">F V</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <a class="nav-link linka button-5" aria-current="page" href="./index.html">Inicio</a>
+            <a class="nav-link linkb button-5" href="./preco.html">Preços</a>
+
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <div class="resultado">
+            <span>Sucata Pesada</span>
+            <input type="number" name="" id="sucata_pesada" placeholder="Sucata Pesada">
+            <span>Sucata Mista</span>
+            <input type="number" name="" id="sucata_mista" placeholder="Sucata Mista">
+            <span>Alumínio</span>
+            <input type="number" name="" id="Aluminio" placeholder="Alumínio">
+            <span>Cobre</span>
+            <input type="number" name="" id="Cobre" placeholder="Cobre">
+            <span>Metal</span>
+            <input type="number" name="" id="Metal" placeholder="Metal">
+            <span>Ferro Fundido</span>
+            <input type="number" name="" id="Ferro_Fundido" placeholder="Ferro Fundido">
+            <span>Ferro Fundido *Ruim</span>
+            <input type="number" name="" id="Ferro_Ruim" placeholder="Ferro Fundido Ruim">
+            <span>caixas</span>
+            <input type="number" name="" id="caixa" placeholder="digite quantas caixas">
+            <button type="button" class="button-52" role="button" id="liveToastBtn">Calcular</button>
+            <span id="valor"></span>
+        </div>
+        
+      </main>
+      <div class="toast-container position-fixed bottom-0 end-0 p-3 ">
+        <div id="liveToast" class="toast color" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header colortwo">
+            <img src="Design_sem_nome__17_-removebg-preview.png" class="rounded me-2" alt="..." width="55px">
+            <strong class="me-auto">Ferro Velho</strong>
+            <small>1 seg</small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+          <div class="toast-body">
+            
+          </div>
+        </div>
+      </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
